@@ -1,0 +1,10 @@
+com/demo/retrofithttpmethods/databinding/ActivityMainBinding.java
+ com.demo.retrofithttpmethods.databinding.ActivityMainBinding
+com/demo/retrofithttpmethods/databinding/ActivityCourseBinding.java
+ com.demo.retrofithttpmethods.databinding.ActivityCourseBinding
+com/demo/retrofithttpmethods/databinding/CoursesListRowBinding.java
+ com.demo.retrofithttpmethods.databinding.CoursesListRowBinding
+com/demo/retrofithttpmethods/databinding/ActivityLoginBinding.java
+ com.demo.retrofithttpmethods.databinding.ActivityLoginBinding
+com/demo/retrofithttpmethods/BuildConfig.java
+ com.demo.retrofithttpmethods.BuildConfig

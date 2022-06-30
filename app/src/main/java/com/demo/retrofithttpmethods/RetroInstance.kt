@@ -9,7 +9,7 @@ class RetroInstance {
 
     companion object {
 
-        val BASE_URL = "https://gorest.co.in/public-api/"
+        val BASE_URL = "https://afa1-181-67-184-72.sa.ngrok.io/"
 
         fun getRetroInstance(): Retrofit {
             val logging = HttpLoggingInterceptor()

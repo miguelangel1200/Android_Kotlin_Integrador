@@ -1,5 +1,6 @@
 package com.demo.retrofithttpmethods
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -18,10 +19,15 @@ class MainActivity : AppCompatActivity() {
         buttonCreate.setOnClickListener {
             createUser()
         }
+
+        buttonLoginRedirect.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun createUser() {
-        val user  = User("", editTextName.text.toString(), editTextEmail.text.toString(), "Active", "Male")
+        val user  = User("", editTextUserName.text.toString(),editTextPassword.text.toString(), editTextEmail.text.toString(), editTextName.text.toString(), editTextLastName.text.toString(), editTextBirthDay.text.toString() )
         viewModel.createNewUser(user)
 
     }
@@ -31,10 +37,12 @@ class MainActivity : AppCompatActivity() {
         viewModel.getCreateNewUserObserver().observe(this, Observer <UserResponse?>{
 
             if(it  == null) {
-                Toast.makeText(this@MainActivity, "Failed to create User", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@MainActivity, "Failed to register User", Toast.LENGTH_LONG).show()
             } else {
                 //{"code":201,"meta":null,"data":{"id":2877,"name":"xxxxxaaaaabbbbb","email":"xxxxxaaaaabbbbb@gmail.com","gender":"male","status":"active"}}
-                Toast.makeText(this@MainActivity, "Successfully created User", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@MainActivity, "Successfully register User", Toast.LENGTH_LONG).show()
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
             }
         })
     }

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "A:\\Documentos\\4to Ciclo\\Proyecto Integrador Git\\Test Androids\\Retrofit_POST_MVVM_Kotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\courses_list_row.xml",
+        "source": "A:\\Documentos\\4to Ciclo\\Proyecto Integrador Git\\Test Androids\\Retrofit_POST_MVVM_Kotlin\\app\\src\\main\\res\\layout\\courses_list_row.xml"
+    },
+    {
+        "merged": "A:\\Documentos\\4to Ciclo\\Proyecto Integrador Git\\Test Androids\\Retrofit_POST_MVVM_Kotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_course.xml",
+        "source": "A:\\Documentos\\4to Ciclo\\Proyecto Integrador Git\\Test Androids\\Retrofit_POST_MVVM_Kotlin\\app\\src\\main\\res\\layout\\activity_course.xml"
+    },
+    {
+        "merged": "A:\\Documentos\\4to Ciclo\\Proyecto Integrador Git\\Test Androids\\Retrofit_POST_MVVM_Kotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "A:\\Documentos\\4to Ciclo\\Proyecto Integrador Git\\Test Androids\\Retrofit_POST_MVVM_Kotlin\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "A:\\Documentos\\4to Ciclo\\Proyecto Integrador Git\\Test Androids\\Retrofit_POST_MVVM_Kotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "A:\\Documentos\\4to Ciclo\\Proyecto Integrador Git\\Test Androids\\Retrofit_POST_MVVM_Kotlin\\app\\src\\main\\res\\layout\\activity_login.xml"
+    }
+]
