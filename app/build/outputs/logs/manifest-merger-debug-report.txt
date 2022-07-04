@@ -99,18 +99,18 @@ ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofi
 		ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:16:13-36
 	android:name
 		ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:15:13-43
-activity#com.demo.retrofithttpmethods.LoginActivity
+activity#com.demo.retrofithttpmethods.MainActivity
 ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:18:13-42
-activity#com.demo.retrofithttpmethods.MainActivity
+		ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:18:13-41
+activity#com.demo.retrofithttpmethods.LoginActivity
 ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:20:9-28:20
 	android:exported
 		ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:21:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN

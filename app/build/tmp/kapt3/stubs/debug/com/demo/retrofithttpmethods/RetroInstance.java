@@ -7,7 +7,7 @@ public final class RetroInstance {
     @org.jetbrains.annotations.NotNull()
     public static final com.demo.retrofithttpmethods.RetroInstance.Companion Companion = null;
     @org.jetbrains.annotations.NotNull()
-    private static final java.lang.String BASE_URL = "https://afa1-181-67-184-72.sa.ngrok.io/";
+    private static final java.lang.String BASE_URL = "https://c62c-181-67-184-72.ngrok.io/";
     
     public RetroInstance() {
         super();

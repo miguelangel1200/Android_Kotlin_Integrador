@@ -50,10 +50,10 @@ class LoginActivity : AppCompatActivity() {
         viewModel.getLoginUserObserver().observe(this, Observer <UserLoginResponse?>{
 
             if(it  == null) {
-                Toast.makeText(this@LoginActivity, "Failed to login User", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@LoginActivity, "Error de Usuario", Toast.LENGTH_LONG).show()
             } else {
                 //{"code":201,"meta":null,"data":{"id":2877,"name":"xxxxxaaaaabbbbb","email":"xxxxxaaaaabbbbb@gmail.com","gender":"male","status":"active"}}
-                Toast.makeText(this@LoginActivity, "Successfully login User", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@LoginActivity, "Bienvenido", Toast.LENGTH_LONG).show()
                 val intent = Intent(this, CourseActivity::class.java)
                 startActivity(intent)
             }

@@ -6,49 +6,63 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.demo.retrofithttpmethods.R;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final Button buttonCreate;
 
   @NonNull
-  public final Button buttonLoginRedirect;
+  public final TextView buttonLoginRedirect;
 
   @NonNull
-  public final EditText editTextBirthDay;
+  public final TextInputEditText editTextBirthDay;
 
   @NonNull
-  public final EditText editTextEmail;
+  public final TextInputEditText editTextEmail;
 
   @NonNull
-  public final EditText editTextLastName;
+  public final TextInputEditText editTextLastName;
 
   @NonNull
-  public final EditText editTextName;
+  public final TextInputEditText editTextName;
 
   @NonNull
   public final EditText editTextPassword;
 
   @NonNull
-  public final EditText editTextUserName;
+  public final TextInputEditText editTextUserName;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonCreate,
-      @NonNull Button buttonLoginRedirect, @NonNull EditText editTextBirthDay,
-      @NonNull EditText editTextEmail, @NonNull EditText editTextLastName,
-      @NonNull EditText editTextName, @NonNull EditText editTextPassword,
-      @NonNull EditText editTextUserName) {
+  @NonNull
+  public final EditText etConfirmPassword;
+
+  @NonNull
+  public final LinearLayout socialLayout;
+
+  @NonNull
+  public final Toolbar toolbar;
+
+  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button buttonCreate,
+      @NonNull TextView buttonLoginRedirect, @NonNull TextInputEditText editTextBirthDay,
+      @NonNull TextInputEditText editTextEmail, @NonNull TextInputEditText editTextLastName,
+      @NonNull TextInputEditText editTextName, @NonNull EditText editTextPassword,
+      @NonNull TextInputEditText editTextUserName, @NonNull EditText etConfirmPassword,
+      @NonNull LinearLayout socialLayout, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.buttonCreate = buttonCreate;
     this.buttonLoginRedirect = buttonLoginRedirect;
@@ -58,11 +72,14 @@ public final class ActivityMainBinding implements ViewBinding {
     this.editTextName = editTextName;
     this.editTextPassword = editTextPassword;
     this.editTextUserName = editTextUserName;
+    this.etConfirmPassword = etConfirmPassword;
+    this.socialLayout = socialLayout;
+    this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -94,31 +111,31 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       id = R.id.buttonLoginRedirect;
-      Button buttonLoginRedirect = ViewBindings.findChildViewById(rootView, id);
+      TextView buttonLoginRedirect = ViewBindings.findChildViewById(rootView, id);
       if (buttonLoginRedirect == null) {
         break missingId;
       }
 
       id = R.id.editTextBirthDay;
-      EditText editTextBirthDay = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText editTextBirthDay = ViewBindings.findChildViewById(rootView, id);
       if (editTextBirthDay == null) {
         break missingId;
       }
 
       id = R.id.editTextEmail;
-      EditText editTextEmail = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText editTextEmail = ViewBindings.findChildViewById(rootView, id);
       if (editTextEmail == null) {
         break missingId;
       }
 
       id = R.id.editTextLastName;
-      EditText editTextLastName = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText editTextLastName = ViewBindings.findChildViewById(rootView, id);
       if (editTextLastName == null) {
         break missingId;
       }
 
       id = R.id.editTextName;
-      EditText editTextName = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText editTextName = ViewBindings.findChildViewById(rootView, id);
       if (editTextName == null) {
         break missingId;
       }
@@ -130,14 +147,32 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       id = R.id.editTextUserName;
-      EditText editTextUserName = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText editTextUserName = ViewBindings.findChildViewById(rootView, id);
       if (editTextUserName == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, buttonCreate, buttonLoginRedirect,
+      id = R.id.et_confirm_password;
+      EditText etConfirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (etConfirmPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.social_layout;
+      LinearLayout socialLayout = ViewBindings.findChildViewById(rootView, id);
+      if (socialLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((RelativeLayout) rootView, buttonCreate, buttonLoginRedirect,
           editTextBirthDay, editTextEmail, editTextLastName, editTextName, editTextPassword,
-          editTextUserName);
+          editTextUserName, etConfirmPassword, socialLayout, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

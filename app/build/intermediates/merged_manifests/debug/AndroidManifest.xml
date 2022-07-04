@@ -25,10 +25,10 @@
             android:name="com.demo.retrofithttpmethods.CourseActivity"
             android:exported="true" />
         <activity
-            android:name="com.demo.retrofithttpmethods.LoginActivity"
+            android:name="com.demo.retrofithttpmethods.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.demo.retrofithttpmethods.MainActivity"
+            android:name="com.demo.retrofithttpmethods.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

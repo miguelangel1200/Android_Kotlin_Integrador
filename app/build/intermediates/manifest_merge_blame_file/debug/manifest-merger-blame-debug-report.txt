@@ -41,14 +41,14 @@
 26-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:16:13-36
 27        <activity
 27-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:17:9-19:40
-28            android:name="com.demo.retrofithttpmethods.LoginActivity"
-28-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:18:13-42
+28            android:name="com.demo.retrofithttpmethods.MainActivity"
+28-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:18:13-41
 29            android:exported="false" />
 29-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:19:13-37
 30        <activity
 30-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:20:9-28:20
-31            android:name="com.demo.retrofithttpmethods.MainActivity"
-31-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:21:13-41
+31            android:name="com.demo.retrofithttpmethods.LoginActivity"
+31-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:21:13-42
 32            android:exported="true" >
 32-->A:\Documentos\4to Ciclo\Proyecto Integrador Git\Test Androids\Retrofit_POST_MVVM_Kotlin\app\src\main\AndroidManifest.xml:22:13-36
 33            <intent-filter>
